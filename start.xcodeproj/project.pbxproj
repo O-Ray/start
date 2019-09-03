@@ -14,6 +14,8 @@
 		5201ADE0231E6A2A009A63DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5201ADDE231E6A2A009A63DB /* LaunchScreen.storyboard */; };
 		5201ADEB231E6A2A009A63DB /* startTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5201ADEA231E6A2A009A63DB /* startTests.swift */; };
 		5201ADF6231E6A2A009A63DB /* startUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5201ADF5231E6A2A009A63DB /* startUITests.swift */; };
+		5201AE06231E7202009A63DB /* calenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5201AE05231E7202009A63DB /* calenderViewController.swift */; };
+		5201AE0A231E792D009A63DB /* calendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5201AE09231E792D009A63DB /* calendarTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5201ADF1231E6A2A009A63DB /* startUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = startUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5201ADF5231E6A2A009A63DB /* startUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startUITests.swift; sourceTree = "<group>"; };
 		5201ADF7231E6A2A009A63DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5201AE05231E7202009A63DB /* calenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderViewController.swift; sourceTree = "<group>"; };
+		5201AE09231E792D009A63DB /* calendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				5201ADDC231E6A2A009A63DB /* Assets.xcassets */,
 				5201ADDE231E6A2A009A63DB /* LaunchScreen.storyboard */,
 				5201ADE1231E6A2A009A63DB /* Info.plist */,
+				5201AE05231E7202009A63DB /* calenderViewController.swift */,
+				5201AE09231E792D009A63DB /* calendarTableViewCell.swift */,
 			);
 			path = start;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5201ADD8231E6A28009A63DB /* ViewController.swift in Sources */,
+				5201AE06231E7202009A63DB /* calenderViewController.swift in Sources */,
 				5201ADD6231E6A28009A63DB /* AppDelegate.swift in Sources */,
+				5201AE0A231E792D009A63DB /* calendarTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.rayrayo.start;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.rayrayo.start;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
